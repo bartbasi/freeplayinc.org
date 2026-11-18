@@ -1,0 +1,6 @@
+# Keep LF line endings on every machine, so the published files do not change.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary

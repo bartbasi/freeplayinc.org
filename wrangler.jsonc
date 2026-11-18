@@ -1,0 +1,23 @@
+{
+  // freeplayinc.org: a static site served by Cloudflare Workers static assets.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "freeplayinc",
+  "compatibility_date": "2026-11-01",
+  // A few lines of code that redirect the workers.dev address to freeplayinc.org.
+  "main": "worker/index.js",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    // Only the home page goes through the code above. All other files are served directly.
+    "run_worker_first": ["/"]
+  },
+  // The workers.dev address stays on so that it can redirect.
+  "workers_dev": true,
+  "preview_urls": false,
+  // The real domain. Cloudflare makes the DNS records and certificates for these.
+  "routes": [
+    { "pattern": "freeplayinc.org", "custom_domain": true },
+    { "pattern": "www.freeplayinc.org", "custom_domain": true }
+  ]
+}
