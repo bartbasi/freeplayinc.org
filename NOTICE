@@ -1,0 +1,83 @@
+freeplayinc.org
+Copyright 2026 Free Play, Inc.
+
+Designed and written by Bart Basi, with assistance from Claude.
+
+freeplayinc.org, the Free Play, Inc. web site, is free software: you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License, version 3, as published by the Free Software Foundation, with the
+additional terms below. The full license is in the file LICENSE.
+
+freeplayinc.org is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+Source code: https://github.com/bartbasi/freeplayinc.org
+Feedback: bartbasi@gmail.com
+
+
+Additional terms (GNU General Public License, version 3, section 7)
+
+These terms apply to freeplayinc.org's code, design, text, drawings, icons
+and documents. They do not apply to the pictures of other work, which are
+covered under "Pictures of other work" below.
+
+1. Author attribution (section 7(b)). Any work based on freeplayinc.org, in
+   whole or in part, must keep this author attribution, which credits Bart
+   Basi as the creator of the original freeplayinc.org and Free Play, Inc. as
+   its copyright holder:
+
+       Based on freeplayinc.org, designed and written by Bart Basi, with
+       assistance from Claude. Copyright 2026 Free Play, Inc.
+
+   (a) in its source code, by keeping this NOTICE file or its full text; and
+   (b) if the work has an interactive user interface, among the Appropriate
+       Legal Notices it displays (for example on an About, Credits or License
+       screen, or in the footer of a web page), where its users can readily
+       see it.
+
+2. Marking modified versions (sections 7(c) and 7(d)). A modified version
+   must be marked as changed from the original and must not be presented as
+   the original freeplayinc.org. Beyond the attribution in term 1, the names
+   Free Play, Inc. and Bart Basi may not be used to promote a modified
+   version or to suggest that it was made or endorsed by Free Play, Inc. or
+   Bart Basi.
+
+3. Name and icon (sections 7(c) and 7(e)). This license grants no rights under
+   trademark law to the names "Free Play, Inc." and "freeplayinc.org" or to
+   the Free Play, Inc. coin icon. A modified version you distribute is marked
+   as different from the original by using its own name and icon instead of
+   them. Saying that your work is "based on freeplayinc.org" is allowed, and
+   term 1 requires it.
+
+
+Pictures of other work
+
+The pictures in src/originals and public/img show other work. They are not
+under this license. Each keeps the copyright and the license of the work it
+shows.
+
+The game pictures show Updraft, SumUp, Sudoku, WoodLogic, Forkline and Fair
+Deal Solitaire. The app pictures show ScaleConnect, Board Game Collector and
+MapApp. Each belongs to its own project, under that project's license.
+
+The MapApp pictures also show map data, which keeps its own licenses:
+OpenStreetMap data under the Open Database License (ODbL) 1.0, USDA NAIP
+imagery in the public domain, and parcel data from Macon County, Illinois
+GIS, which is based on assessment information and is not a legal survey.
+
+The pictures in the web folders show bartbasi.com, crackerscheese.com,
+cupm.net and financeillinois.com. Each site belongs to its owner.
+
+
+Third party parts
+
+freeplayinc.org uses three fonts, each under the SIL Open Font License,
+version 1.1: Anybody, Instrument Sans and Doto. Their licenses are in
+public/fonts/OFL-Anybody.txt, public/fonts/OFL-Instrument-Sans.txt and
+public/fonts/OFL-Doto.txt.
+
+The site loads no other third party code. The tools in package.json are used
+only to build images and to publish. They are not part of the site, and each
+has its own license.
